@@ -1,5 +1,6 @@
 <html>
     <body>
+        <title>Rayray's valentine proposal</title>
         <div>
             <br/>
             <br/>
@@ -7,7 +8,7 @@
             <br/>
             <br/>
             <br/>
-            <h1>Becky, will you <span style="color: yellow;">b</span><span style="color: yellow;">e<span style="color: yellow;">e</span></span> my valentine?</h1>
+            <h1>Becky, will you <span style="color: yellow;">b</span><span style="color: black;">e<span style="color: yellow;">e</span></span> my valentine?</h1>
             <img id="valentineImage" src="https://i.pinimg.com/736x/55/29/24/552924c5d913f43785c58e07371f8e53.jpg" alt="Valentine's Day Image" style="max-width: 300px; height: auto;">
             <br/>
             <br/>
@@ -52,7 +53,7 @@
             document.getElementById("yesButton").addEventListener("click", showAlert);
 
             function showAlert() {
-                alert("I love you! See you soon <3");
+                alert("Thank you!! See you soon <3");
             }
 
             var yesButton = document.getElementById("yesButton");
@@ -76,8 +77,8 @@
 
                 var currentWidth = yesButton.offsetWidth;
                 var currentHeight = yesButton.offsetHeight
-                yesButton.style.width = currentWidth + 100 + "px";
-                yesButton.style.height = currentHeight + 50 + "px";
+                yesButton.style.width = currentWidth + 50 + "px";
+                yesButton.style.height = currentHeight + 10 + "px";
 
                 var randomImageIndex = Math.floor(Math.random() * imageSources.length);
                 valentineImage.src = imageSources[randomImageIndex];
