@@ -8,7 +8,7 @@
             <br/>
             <br/>
             <h1>Will you be my valentine?</h1>
-            <img id="valentineImage" src="" alt="Valentine's Day Image" style="max-width: 300px; height: auto;">
+            <img id="valentineImage" src="https://i.pinimg.com/736x/55/29/24/552924c5d913f43785c58e07371f8e53.jpg" alt="Valentine's Day Image" style="max-width: 300px; height: auto;">
             <br/>
             <br/>
             <br/>
@@ -59,7 +59,7 @@
             var no = document.getElementById("no");
             var valentineImage = document.getElementById("valentineImage");
 
-            var noTexts = ["Are you sure?", "Please give me a chance pookie", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry"];
+            var noTexts = ["Are you sure?", "Bee my valentine pls", "Booboo please", "Are you positive?", "Give me a chance bookie", "Bookie please", "Please bookerino", "Don't make me cry", "I'm gonna cry", "I'm gonna kidnap you", "Don't click this", "Click yes", "Buskeroonie :("];
             var imageSources = ["https://pbs.twimg.com/media/Fyk7XMnaEAI3PsB.jpg", "https://media.tenor.com/BP70qe8X0J8AAAAe/crycat-crying-cat.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9e71v7IfFLLS_1CfY2it3an-6XH1uROjTfU5c88AwRL8aRkqAYDmoFrm9gpbUqwNameo&usqp=CAU", "https://i.pinimg.com/736x/cb/d8/3b/cbd83b534a315e809a9da2b8cd3ac3bf.jpg"];
 
             no.addEventListener("click", change);
@@ -76,8 +76,8 @@
 
                 var currentWidth = yesButton.offsetWidth;
                 var currentHeight = yesButton.offsetHeight
-                yesButton.style.width = currentWidth + 30 + "px";
-                yesButton.style.height = currentHeight + 10 + "px";
+                yesButton.style.width = currentWidth + 100 + "px";
+                yesButton.style.height = currentHeight + 50 + "px";
 
                 var randomImageIndex = Math.floor(Math.random() * imageSources.length);
                 valentineImage.src = imageSources[randomImageIndex];
